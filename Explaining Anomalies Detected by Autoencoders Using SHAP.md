@@ -16,11 +16,13 @@ Shapley Value is a solution concept of fairly distributing both gains and costs 
 - Contribution Margin=Sales Revenue−Variable Costs
 - Shapely value = average expected [marginal contribution](https://www.investopedia.com/terms/c/contributionmargin.asp) of one player after all possible combinations have been considered.
 
+![](https://github.com/QuentinFuxa/Paper-notes/blob/master/autoencoder_shap.png)
+![](https://github.com/QuentinFuxa/Paper-notes/blob/master/feature_intersection.png)
 
 In the reconstruction error of the autoencoder, they:
-1- Extract the topMfeatures list. 
-2- Assign the weights of the model associated to the input to 0 -> Not interested in knowing the effect of the feature on its reconstruction. 
-3- For each feature of the topMfeatures list, they extract the shapvalues associated.  Among these shapvalues, they extract the shapvalues contributing, and the shapvalues offsetting the the anomaly.
+1. Extract the topMfeatures list. 
+2. Assign the weights of the model associated to the input to 0 -> Not interested in knowing the effect of the feature on its reconstruction. 
+3. For each feature of the topMfeatures list, they extract the shapvalues associated.  Among these shapvalues, they extract the shapvalues contributing, and the shapvalues offsetting the the anomaly.
 
 
 
