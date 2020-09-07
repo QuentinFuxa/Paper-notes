@@ -1,8 +1,11 @@
 # How Artificial Intelligence and machine learning research impacts payment card fraud detection: A survey and industry benchmark
 
 This paper proposes a benchmark of published method, between 1990 and 2017, as if they were all implemented in an FMS (Fraud Management System) in 2017.
+Fraud vectors have until recently slowly evolved. Payments industry has tacitly accepted that the cost of fraud as an acceptable write-off cost of business. The fraud
+levels grew but were a disproportionately small portion of the bank profits.
 
 **Data and metrics**
+
 A key metric is the number of alert in day, 𝐴𝑙𝑒𝑟𝑡𝐷: There is an operational cost for such a process.
 The data held on each transaction including the CHD, the cardholder and merchant is sensitive. Lack of data available for researchers.
 Even data available to an FMS is partial:
@@ -49,15 +52,10 @@ Lot of differences:
 - dimensionality
 - complexity
 
-Fraud is typically carried out repeatedly using the same CHD/payment card until it is blocked. It is therefore important that these sequence frauds that occur over a time period are detected as early as possible. There are only a few methods that describe this issue and these use statistics that are aggregated over time to improve their performance. It is suggested that more advanced time series modelling approaches may yield better real-world performance.
-
-fraud vectors have until recently slowly evolved
-payments industry tacitly accepting that the cost of fraud as an acceptable write-off cost of business. The fraud
-levels grew but were a disproportionately small portion of the bank profits.
+**Future directions:**
 
 
-Comprehensible classifiers are essential to guide them towards a particular type of investigation and towards creating 
-prevention that is more effective.
+
 
 Future directions:
 - data philanthropy by Mastercard
@@ -65,7 +63,8 @@ Future directions:
 
 Improving classifier performance:
 - Does deep learning has any advantages in the fraud detection domain?
-- Area of improvement: The temporal and sequential nature of transactions is important as humans develop habitual behaviours, where patterns of expenditure on certain goods, shops, brands, amounts can be observed over a period.
+- Area of improvement: The temporal and sequential nature of transactions is important as humans develop habitual behaviours, where patterns of expenditure on certain goods, shops, brands, amounts can be observed over a period. Fraud is typically carried out repeatedly using the same CHD/payment card until it is blocked. It is therefore important that these sequence frauds that occur over a time period are detected as early as possible. There are only a few methods that describe this issue and these use statistics that are aggregated over time to improve their performance. It is suggested that more advanced time series modelling approaches may yield better real-world performance.
+
 
 Conclusion:
 - The top-ranking method uses human written rules, three methods are based on neural networks, two use decision tree/random forest and one uses a semi-supervised method based on cluster profiling. 
