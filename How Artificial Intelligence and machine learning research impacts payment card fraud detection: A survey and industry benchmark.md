@@ -1,5 +1,7 @@
 # How Artificial Intelligence and machine learning research impacts payment card fraud detection: A survey and industry benchmark
 
+https://www.researchgate.net/publication/328665645_How_Artificial_Intelligence_and_machine_learning_research_impacts_payment_card_fraud_detection_A_survey_and_industry_benchmark
+
 This paper proposes a benchmark of published method, between 1990 and 2017, as if they were all implemented in an FMS (Fraud Management System) in 2017.
 
 Fraud vectors have until recently slowly evolved. Payments industry has tacitly accepted that the cost of fraud as an acceptable write-off cost of business. The fraud
@@ -16,14 +18,7 @@ Even data available to an FMS is partial:
   - An acquirer (merchant’s bank): Only transactional information from the merchant along with information they keep on their merchants
 
 
-**Data and metrics**
-Lack of data available for researchers.
-
-The data held on each transaction including the CHD, the cardholder and merchant is sensitive. 
-Even data available to an FMS is partial:
-- A merchant : Only data of the transactions that have occured in their firm
-- An issuer (customer's bank):  Only data on the transactions that have been undertaken on their issued card by the cardholder
-- An acquirer (merchant’s bank): Only transactional information from the merchant along with information they keep on their merchants
+**Metrics**
 
 Metrics:
 - confusion matrix
