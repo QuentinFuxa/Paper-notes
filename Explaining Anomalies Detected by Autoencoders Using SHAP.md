@@ -1,22 +1,19 @@
 # Explaining Anomalies Detected by Autoencoders Using SHAP
 
 This paper from University of the Negev researchers highlights a solution to explain Autoencoder error.
-
-
-
-They used SHapley Additive exPlanations (SHAP) with an autoencoder.
-
-SHapley Additive exPlanations (SHAP) is a a game theory-based framework which  has the capacity of explaining various supervised learning models.
+They used SHapley Additive exPlanations (SHAP) with an autoencoder. SHapley Additive exPlanations (SHAP) is a a game theory-based framework which  has the capacity of explaining various supervised learning models.
 
 One way of explaining is using an interpretable approximation of the original model
+
 Other solutions:
 - LIME: Model agnostic method
 - DeepLIFT: back propagating the contributions of all neurons in the network
   to the input features.
 
 SHAP values interpret the impact of having a certain value for a given feature in comparison to the prediction we'd make if that feature took some baseline value.
-Shapley Value is a solution concept of fairly distributing both gains and costs to several actors working in coalition.
-- Contribution Margin=Sales Revenue − Variable Costs
+
+Shapley Value is a solution concept of fairly distributing both gains and costs to several actors working in coalition:
+- Contribution Margin=Sales Revenue−Variable Costs
 - Shapely value = average expected [marginal contribution](https://www.investopedia.com/terms/c/contributionmargin.asp) of one player after all possible combinations have been considered.
 
 
