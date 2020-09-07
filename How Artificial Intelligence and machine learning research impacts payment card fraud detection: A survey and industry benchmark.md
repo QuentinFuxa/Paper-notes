@@ -66,7 +66,7 @@ Lot of differences between dataset:
 - data philanthropy by Mastercard
 - possibility of using more complex data
 - Area of improvement: The temporal and sequential nature of transactions is important as humans develop habitual behaviors, where patterns of expenditure on certain goods, shops, brands, amounts can be observed over a period. Fraud is typically carried out repeatedly using the same CHD/payment card until it is blocked. It is therefore important that these sequence frauds that occur over a time period are detected as early as possible. There are only a few methods that describe this issue and these use statistics that are aggregated over time to improve their performance. It is suggested that more advanced time series modelling approaches may yield better real-world performance.
-
+Cognitive continuous learning systems: human/ML feedback loop
 
 **Conclusion:**
 - The top-ranking method uses human written rules, three methods are based on neural networks, two use decision tree/random forest and one uses a semi-supervised method based on cluster profiling. 
