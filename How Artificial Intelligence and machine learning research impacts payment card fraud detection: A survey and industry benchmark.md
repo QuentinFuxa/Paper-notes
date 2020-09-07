@@ -2,9 +2,9 @@
 
 https://www.researchgate.net/publication/328665645_How_Artificial_Intelligence_and_machine_learning_research_impacts_payment_card_fraud_detection_A_survey_and_industry_benchmark
 
-This paper proposes a benchmark of published method, between 1990 and 2017, as if they were all implemented in an FMS (Fraud Management System) in 2017.
+This paper proposes a benchmark of published method, from 1990 and 2017, as if they were all implemented in an FMS (Fraud Management System) in 2017.
 
-- Card Expenditure Volume and fraud both grow exponentially. However, in 2017, for the first time fraud grew more rapidly than CEV. Fraud vectors have until recently slowly evolved. Payments industry has tacitly accepted that the cost of fraud as an acceptable write-off cost of business. The fraud levels grew but were a disproportionately small portion of the bank profits.
+Card Expenditure Volume and fraud both grow exponentially. However, in 2017, for the first time fraud grew more rapidly than CEV. Fraud vectors have until recently slowly evolved. Payments industry has tacitly accepted that the cost of fraud as an acceptable write-off cost of business. The fraud levels grew but were a disproportionately small portion of the bank profits.
 
 **Major challenges in real-world fraud detection**
 - Transparent decisions: Problem of ML is its opacity. Industry considers that it is only the timely understanding of new fraud vectors that will allow improved prevention methods to be put in place
@@ -16,6 +16,7 @@ Even data available to an FMS is partial:
   - An issuer (customer's bank):  Only data on the transactions that have been undertaken on their issued card by the cardholder
   - An acquirer (merchant’s bank): Only transactional information from the merchant along with information they keep on their merchants
 - Concept drift and disruptive industry technologies: The detection of fraud is nonstationary as fraud vectors change over time. An efficient FMS should be able to learn new fraud vectors
+- Class unbalanced: 5000 non fraud for 1 fraud
 
 **Metrics**
 
@@ -48,6 +49,7 @@ three types of classifier: (1) Rules, (2) Supervised classifier, (3) Anomaly cla
 They grouped papers by methodology/ Type of model:
 - Expert system (rule based models): Methods widely adopted throughout the payment industry. Easy to understand. However it does not adapt to new payment and criminal methods.
 -Decision Tree: Easy to understand. DT method typically being sensitive to noise in the data. surveyed methods create a large number of rules each with many antecedents which makes their interpretation difficult.
+- Random Forests: Achieve good results
 - Supervised neural networks: Gave rather good results
 - Unsupervised neural networks and clustering: Lack of data: perfect results + many clustering approaches are considered computationally intensive
 - Bayesian network: Bayesian network methods provide no practical improvement in performance.
@@ -66,7 +68,7 @@ Lot of differences between dataset:
 - data philanthropy by Mastercard
 - possibility of using more complex data
 - Area of improvement: The temporal and sequential nature of transactions is important as humans develop habitual behaviors, where patterns of expenditure on certain goods, shops, brands, amounts can be observed over a period. Fraud is typically carried out repeatedly using the same CHD/payment card until it is blocked. It is therefore important that these sequence frauds that occur over a time period are detected as early as possible. There are only a few methods that describe this issue and these use statistics that are aggregated over time to improve their performance. It is suggested that more advanced time series modelling approaches may yield better real-world performance.
-Cognitive continuous learning systems: human/ML feedback loop
+-   Cognitive continuous learning systems: human/ML feedback loop
 
 **Conclusion:**
 - The top-ranking method uses human written rules, three methods are based on neural networks, two use decision tree/random forest and one uses a semi-supervised method based on cluster profiling. 
