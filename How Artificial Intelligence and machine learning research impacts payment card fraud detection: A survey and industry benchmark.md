@@ -46,44 +46,31 @@ Results are recalculated and tabulated in a consistent format using 𝐴𝑙𝑒
 three types of classifier: (1) Rules, (2) Supervised classifier, (3) Anomaly classifier
 
 They grouped papers by methodology/ Type of model:
-- Expert system/Decision Tree
-- Supervised neural networks
-- Unsupervised neural networks
-- Unsupervised neural networks and clustering
-- Bayesian network
-- Evolutionary computing
-- Hidden Markov Model (HMM)
-- Support vector machine (SVM)
-- Eclectic
+- Expert system (rule based models): Methods widely adopted throughout the payment industry. Easy to understand. However it does not adapt to new payment and criminal methods.
+-Decision Tree: Easy to understand. DT method typically being sensitive to noise in the data. surveyed methods create a large number of rules each with many antecedents which makes their interpretation difficult.
+- Supervised neural networks: Gave rather good results
+- Unsupervised neural networks and clustering: Lack of data: perfect results + many clustering approaches are considered computationally intensive
+- Bayesian network: Bayesian network methods provide no practical improvement in performance.
+- Evolutionary computing: Rather good results, but high RPR 
+- Hidden Markov Model (HMM): HMM methods generally lower in performance than other simpler methods
+- Support vector machine (SVM): First SVM: 14
+- Eclectic: They cover a range of differing classification techniques and many propose hybrid/ensemble methods making use of multiple classifiers.
 
-Lot of differences:
+Lot of differences between dataset:
 - variation in the dataset size
 - fraud imbalance
 - dimensionality
 - complexity
 
 **Future directions:**
-Future directions:
 - data philanthropy by Mastercard
 - possibility of using more complex data
-
-Improving classifier performance:
-- Does deep learning has any advantages in the fraud detection domain?
 - Area of improvement: The temporal and sequential nature of transactions is important as humans develop habitual behaviors, where patterns of expenditure on certain goods, shops, brands, amounts can be observed over a period. Fraud is typically carried out repeatedly using the same CHD/payment card until it is blocked. It is therefore important that these sequence frauds that occur over a time period are detected as early as possible. There are only a few methods that describe this issue and these use statistics that are aggregated over time to improve their performance. It is suggested that more advanced time series modelling approaches may yield better real-world performance.
 
 
-Conclusion:
+**Conclusion:**
 - The top-ranking method uses human written rules, three methods are based on neural networks, two use decision tree/random forest and one uses a semi-supervised method based on cluster profiling. 
 - While neural networks dominate as a classifier, there is not sufficient evidence to make a firm conclusion.
 - impact on the payment card industry has been minimal
 - academic work in this area is difficult and marginalized in terms of funding
 - methods provide limited improvements over the earlier works
-
-**Different methods:**
-
-- Rule based models: Methods widely adopted throughout the payment industry. Easy to understand. However it does not adapt to new payment and criminal methods.
-- Decision Tree: Easy to understand. DT method typically being sensitive to noise in the data. surveyed methods create a large number of rules each with many antecedents which makes their interpretation difficult.
-
-- Supervised neural networks: 
-- Probabilistic-Restricted Coulomb Energy (P-RCE) neural network
--
