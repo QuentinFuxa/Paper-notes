@@ -16,7 +16,7 @@ Even data available to an FMS is partial:
   - A merchant : Only data of the transactions that have occured in their firm
   - An issuer (customer's bank):  Only data on the transactions that have been undertaken on their issued card by the cardholder
   - An acquirer (merchant’s bank): Only transactional information from the merchant along with information they keep on their merchants
-
+- Concept drift and disruptive industry technologies: The detection of fraud is nonstationary as fraud vectors change over time. An efficient FMS should be able to learn new fraud vectors
 
 **Metrics**
 
@@ -26,7 +26,7 @@ Metrics:
 - Receiver Operating Characteristic: how well the classifier is able to be specific and sensitive simultaneously
 - Matthews Correlation Coefficient
 
-A key metric is the number of alert in day, 𝐴𝑙𝑒𝑟𝑡𝐷: There is an operational cost for such a process.
+A key metric is the number of alert in day, 𝐴𝑙𝑒𝑟𝑡𝐷: There is an operational cost for checking new alerts.
 The practitioner metrics typically are
 - 𝐴𝑙𝑒𝑟𝑡𝐷
 - %fraud entity detected
