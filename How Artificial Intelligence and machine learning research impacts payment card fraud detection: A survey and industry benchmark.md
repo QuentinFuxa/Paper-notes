@@ -1,6 +1,6 @@
 # How Artificial Intelligence and machine learning research impacts payment card fraud detection: A survey and industry benchmark
 
-This paper proposes a benchmark of published method, between 1990 and 2017, as if they were all implemented in an FMS (Fraud Management System) in 2017.
+This paper proposes a benchmark of published method, between 1990 and 2017, as if they were all implemented in an FMS (Fraud Management System) in 2017.\\
 Fraud vectors have until recently slowly evolved. Payments industry has tacitly accepted that the cost of fraud as an acceptable write-off cost of business. The fraud
 levels grew but were a disproportionately small portion of the bank profits.
 
@@ -31,7 +31,7 @@ Class imbalance
 - A/f = 𝐴𝑙𝑒𝑟𝑡𝐷∕𝑇𝑃′
 
 
-**Models*
+**Models**
 
 three types of classifier: (1) Rules, (2) Supervised classifier, (3) Anomaly classifier
 
@@ -53,8 +53,6 @@ Lot of differences:
 - complexity
 
 **Future directions:**
-
-
 
 
 Future directions:
