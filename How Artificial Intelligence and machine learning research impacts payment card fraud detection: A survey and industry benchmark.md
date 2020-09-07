@@ -1,26 +1,14 @@
 # How Artificial Intelligence and machine learning research impacts payment card fraud detection: A survey and industry benchmark
 
-This paper proposes a benchmark of published method, between 1990 and 2017, as if they were all implemented in an FMS in 2017.
-fraud vectors have until recently slowly evolved
-payments industry tacitly accepting that the cost of fraud as an acceptable write-off cost of business. The fraud
-levels grew but were a disproportionately small portion of the bank profits.
+This paper proposes a benchmark of published method, between 1990 and 2017, as if they were all implemented in an FMS (Fraud Management System) in 2017.
 
-FMS = Fraud Management System
-
-Comprehensible classifiers are essential to guide them towards a particular type of investigation and towards creating 
-prevention that is more effective.
-
+**Data and metrics**
 A key metric is the number of alert in day, 𝐴𝑙𝑒𝑟𝑡𝐷: There is an operational cost for such a process.
-
-
-
 The data held on each transaction including the CHD, the cardholder and merchant is sensitive. Lack of data available for researchers.
 Even data available to an FMS is partial:
 - A merchant : Only data of the transactions that have occured in their firm
 - An issuer (customer's bank):  Only data on the transactions that have been undertaken on their issued card by the cardholder
 - An acquirer (merchant’s bank): Only transactional information from the merchant along with information they keep on their merchants
-
-three types of classifier: (1) Rules, (2) Supervised classifier, (3) Anomaly classifier
 
 Metrics:
 - confusion matrix
@@ -38,6 +26,11 @@ The practitioner metrics typically are
 Class imbalance
 - Ratio of Genuine to Fraud (RGF) = P/N
 - A/f = 𝐴𝑙𝑒𝑟𝑡𝐷∕𝑇𝑃′
+
+
+**Models*
+
+three types of classifier: (1) Rules, (2) Supervised classifier, (3) Anomaly classifier
 
 They grouped papers by methodology/ Type of model:
 - Expert system/Decision Tree
@@ -58,6 +51,13 @@ Lot of differences:
 
 Fraud is typically carried out repeatedly using the same CHD/payment card until it is blocked. It is therefore important that these sequence frauds that occur over a time period are detected as early as possible. There are only a few methods that describe this issue and these use statistics that are aggregated over time to improve their performance. It is suggested that more advanced time series modelling approaches may yield better real-world performance.
 
+fraud vectors have until recently slowly evolved
+payments industry tacitly accepting that the cost of fraud as an acceptable write-off cost of business. The fraud
+levels grew but were a disproportionately small portion of the bank profits.
+
+
+Comprehensible classifiers are essential to guide them towards a particular type of investigation and towards creating 
+prevention that is more effective.
 
 Future directions:
 - data philanthropy by Mastercard
