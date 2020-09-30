@@ -2,12 +2,12 @@
 
 http://proceedings.mlr.press/v97/jagielski19a/jagielski19a.pdf
 
-They have recently been a flurry of research on fairness in machine learning, given the concerns of discrimination in machine learning algorithms. 2 demands have been formulated by supra national organizations:
+There has been a recent wave of research into fairness in machine learning, given concerns about discrimination in machine learning algorithms. 2 requests were made by supranational organizations:
 
-- Demand for non-discriminatory algorithms and models on the one hand
+- Request for algorithms and non-discriminatory models on the one hand
 - Restriction on the collection or use of protected attributes on the other
 
-Difficulty resides in the absence, due to privacy, of the sensitive feature.
+The difficulty lies in the absence, due to intimacy, of the sensitive element.
 
 
 
