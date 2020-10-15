@@ -1,4 +1,5 @@
 # Explaining Anomalies Detected by Autoencoders Using SHAP
+https://arxiv.org/pdf/1903.02407v1.pdf
 
 This paper from University of the Negev researchers highlights a solution to explain Autoencoder error.
 They used SHapley Additive exPlanations (SHAP) with an autoencoder. SHapley Additive exPlanations (SHAP) is a a game theory-based framework which  has the capacity of explaining various supervised learning models.
